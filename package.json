@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Huu4172/InfluencerAnalysisTool-frontend.git",
+  "homepage": "https://Huu4172.github.io/InfluencerAnalysisTool-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
