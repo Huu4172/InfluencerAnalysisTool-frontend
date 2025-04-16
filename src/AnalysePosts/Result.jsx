@@ -6,11 +6,11 @@ function Result({ data }) {
     <div>
       <h4>Result</h4>
       {data ==null ? (
-          <pre>{JSON.stringify(data, null, 2)}</pre>
-      ) : (
         <h1>Failed to fetch data. Try a different URL</h1>
+      ) : (
+        <pre>{JSON.stringify(data, null, 2)}</pre>
       )}
-      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+
     </div>
   );
 }
