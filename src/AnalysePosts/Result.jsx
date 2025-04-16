@@ -1,5 +1,6 @@
 function Result({ data }) {
-  if (!data) return <p>No result yet.</p>;
+  console.log(`current data is ${data}`)
+  if (data == "") return <p>No result yet.</p>;
 
   return (
     <div>
