@@ -4,7 +4,12 @@ function Result({ data }) {
   return (
     <div>
       <h4>Result</h4>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      {data ==null ? (
+          <pre>{JSON.stringify(data, null, 2)}</pre>
+      ) : (
+        <h1>Failed to fetch data. Try a different URL</h1>
+      )}
+      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
     </div>
   );
 }
