@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import AnalysePosts from './AnalysePosts/AnalysePosts.jsx'
+import AnalysePosts from './analyseposts/AnalysePosts.jsx'
 // import './index.css'
-import Input from './AnalysePosts/Input.jsx'
-import Result from './AnalysePosts/Result.jsx'
+import Input from './analyseposts/Input.jsx'
+import Result from './analyseposts/Result.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
