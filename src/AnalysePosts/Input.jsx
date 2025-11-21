@@ -8,7 +8,7 @@ function Input({onSubmit}) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit(input); // send data to Main
+    onSubmit(input); // send data to AnalysePosts
   };
 
   return (
@@ -19,7 +19,9 @@ function Input({onSubmit}) {
         onChange={(e) => setInput(e.target.value)} 
         placeholder="Insert URL here"
       />
-      <button type="submit">Submit</button>
+    <button type="submit" className="bg-indigo-500 ...">
+      Submit
+    </button>
     </form>
   );
 }
